@@ -1,0 +1,60 @@
+/* /////////////////// */
+
+/* //////////// */
+.carousel .div1 {
+  background: url(../images/we.webp) !important;
+}
+.carousel .div2 {
+  background: url(../images/3d.webp) !important;
+}
+.carousel .div3 {
+  background: url(../images/dw.jpg) !important;
+}
+
+.carousel .carousel-item {
+  height: calc(100vh - 128px);
+  background-size: cover !important;
+}
+
+.carousel .carousel-item .carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-control-prev {
+  background: linear-gradient(
+    90deg,
+    black,
+    transparent 80%,
+    black,
+    transparent 40%
+  ) !important;
+}
+.carousel-control-next {
+  background: linear-gradient(
+    270deg,
+    black,
+    transparent 80%,
+    black,
+    transparent 40%
+  ) !important;
+}
+/* //////////////////// */
+.why-us i {
+  font-size: 40px;
+  box-shadow: 0px 0px 10px 14px #ffc107, 0px 0px 3px 15px #ffffff,
+    0px 0px 6px 20px #ffc107, 0px 0px 4px 25px #ffffff,
+    0px 0px 10px 33px #ffc107;
+}
+/* /////////////////////// */
+.social {
+  width: 35px;
+  height: 35px;
+}
+.end {
+  background: url(../images/6.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.end .overlay {
+  background-color: rgba(0, 0, 0, 0.842);
+}
